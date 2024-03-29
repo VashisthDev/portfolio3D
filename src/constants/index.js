@@ -27,6 +27,7 @@ import {
     uphillhome,
     gamingdb,
     todo,
+    buzzit,
   } from "../assets";
   
   export const navLinks = [
@@ -184,12 +185,12 @@ import {
       source_code_link: "https://github.com/VashisthDev/gaming-db",
     },
     {
-      name: "To-Do App",
+      name: "Buzzit",
       description:
-        "A task management web application that assists users in organizing their daily tasks, setting priorities, and tracking completion status.",
+        "Meet my sleek social networking app: connecting people, sparking discussions, and sharing effortlessly. With intuitive features and a focus on privacy, it's the perfect platform for vibrant online communities.",
       tags: [
         {
-          name: "Angular",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
@@ -197,12 +198,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "NodeJS",
+          name: "Clerk",
           color: "pink-text-gradient",
         },
       ],
-      image: todo,
-      source_code_link: "https://github.com/yourusername/uphill-website",
+      image: buzzit,
+      source_code_link: "https://github.com/VashisthDev/threads_app",
     },
     {
       name: "Uphill Official Website",

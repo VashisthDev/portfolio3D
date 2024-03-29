@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import uphillhome from './uphillhome.png';
 import gamingdb from './gamingdb.png';
 import todo from './todo.png';
+import buzzit from './buzzit.jpeg'
 
 
 export {
@@ -71,4 +72,5 @@ export {
   uphillhome,
   gamingdb,
   todo,
+  buzzit,
 };
