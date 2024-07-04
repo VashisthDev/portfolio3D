@@ -28,6 +28,8 @@ import {
     gamingdb,
     todo,
     buzzit,
+    footballAnalysisSystem,
+    aiSummarizer
   } from "../assets";
   
   export const navLinks = [
@@ -55,11 +57,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
@@ -226,6 +228,49 @@ import {
       image: uphillhome,
       source_code_link: "http://www.uphillhrservices.com/",
     },
+    {
+      name: "Football Analysis System",
+      description:
+        "A comprehensive system leveraging machine learning and computer vision to analyze football games, including player detection, tracking, and performance metrics.",
+      tags: [
+        {
+          name: "YOLOv8",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "KMeans",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: footballAnalysisSystem,  // Replace with the actual path to your image
+      source_code_link: "https://github.com/VashisthDev/football-analysis-system",
+    },
+    {
+      name: "AI Summarizer",
+      description:
+        "An AI-powered application that generates concise summaries of lengthy articles and documents, making it easier to grasp key points quickly.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NLTK",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GPT-4",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aiSummarizer,  // Replace with the actual path to your image
+      source_code_link: "https://ai-summarizer-puce.vercel.app/",
+    }    
+    
     // Add more projects here
   ];
   

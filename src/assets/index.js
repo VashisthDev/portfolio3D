@@ -36,7 +36,8 @@ import uphillhome from './uphillhome.png';
 import gamingdb from './gamingdb.png';
 import todo from './todo.png';
 import buzzit from './buzzit.jpeg'
-
+import footballAnalysisSystem from './footballanalysis.jpeg';
+import aiSummarizer from './aisummarizer.jpeg';
 
 export {
   logo,
@@ -73,4 +74,6 @@ export {
   gamingdb,
   todo,
   buzzit,
+  footballAnalysisSystem,
+  aiSummarizer,
 };
